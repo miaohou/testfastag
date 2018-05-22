@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 434 109" style="enable-background:new 0 0 434 109;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{font-family:'NewGothic-Bold';}
+	.st3{font-size:31.4857px;}
+	.st4{font-family:'Avenir-MediumOblique';}
+	.st5{font-size:47.8047px;}
+	.st6{letter-spacing:-1;}
+	.st7{fill:none;}
+	.st8{fill:#9D9D9E;}
+	.st9{font-size:31.4868px;}
+	.st10{letter-spacing:1;}
+	.st11{fill:#D6000F;}
+	.st12{fill:none;stroke:#D6000F;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#D6000F;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#F6B42C;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="圖層_1" class="st0">
+	<g class="st1">
+		<g>
+			<g>
+				<g>
+					<text transform="matrix(0.9559 0 -0.1195 0.9928 136.1011 69.2306)" class="st2 st3">感應   </text>
+					<g>
+						<text transform="matrix(0.9559 0 -0.1195 0.9928 136.1011 69.2306)" class="st2 st3">感應   </text>
+					</g>
+				</g>
+			</g>
+			<g>
+				<text transform="matrix(1.0062 0 -0.1195 0.9928 198.931 72.6561)" class="st4 st5 st6">3</text>
+				<g>
+					<text transform="matrix(1.0062 0 -0.1195 0.9928 198.931 72.6561)" class="st4 st5 st6">3</text>
+				</g>
+			</g>
+			<g>
+				<text transform="matrix(0.9559 0 -0.1195 0.9928 229.3814 69.2306)" class="st2 st3">步驟</text>
+				<g>
+					<text transform="matrix(0.9559 0 -0.1195 0.9928 229.3814 69.2306)" class="st2 st3">步驟</text>
+				</g>
+			</g>
+		</g>
+		<path class="st7" d="M116.4,81.5c-14.7,0-26.8-12-26.8-26.8l0,0c0-14.7,12-26.8,26.8-26.8h149.8"/>
+		<path class="st7" d="M116.7,77.6C104.2,77.6,94,67.4,94,54.9l0,0c0-12.5,10.2-22.7,22.7-22.7h107.1"/>
+		<path class="st7" d="M317.6,28c14.7,0,26.8,12,26.8,26.8l0,0c0,14.7-12,26.8-26.8,26.8h-93.8"/>
+		<path class="st7" d="M316.9,31.8c12.6,0,22.9,10.3,22.9,22.9l0,0c0,12.6-10.3,22.9-22.9,22.9h-78.7"/>
+	</g>
+</g>
+<g id="圖層_2">
+	<g>
+		<g>
+			<g>
+				<g>
+					<text transform="matrix(0.9559 0 -0.1195 0.9928 151.8173 67.9903)" class="st8 st2 st9 st10">優惠波段</text>
+					<g>
+						<text transform="matrix(0.9559 0 -0.1195 0.9928 151.8173 67.9903)" class="st11 st2 st9 st10">優惠波段</text>
+					</g>
+				</g>
+			</g>
+		</g>
+		<path class="st12" d="M116.4,81.1c-14.7,0-26.8-12-26.8-26.8v0c0-14.7,12-26.8,26.8-26.8h149.8"/>
+		<path class="st13" d="M116.7,77.3c-12.5,0-22.7-10.2-22.7-22.7v0c0-12.5,10.2-22.7,22.7-22.7h107.1"/>
+		<line class="st14" x1="218.7" y1="81.1" x2="121.3" y2="81.1"/>
+		<path class="st12" d="M317.6,27.6c14.7,0,26.8,12,26.8,26.8v0c0,14.7-12,26.8-26.8,26.8h-93.8"/>
+		<path class="st13" d="M316.9,31.5c12.6,0,22.9,10.3,22.9,22.9v0c0,12.6-10.3,22.9-22.9,22.9h-78.7"/>
+		<line class="st14" x1="272" y1="27.6" x2="312.5" y2="27.6"/>
+	</g>
+</g>
+</svg>
