@@ -50,23 +50,59 @@ $( function(){
 	    merge: true,
 	    navText : ["<",">"],
 	    items:1,
-	margin:5,
+	margin:10,
 	stagePadding:0,
-	    
-        video:true,
+	autoHeight:true,
+	slideBy:2,
         lazyLoad:true,
  
 	    responsive:{
 	        0:{
-	            
-	        
 	        },
 	        768:{
-	         items:4  
-	        
+	    items:2,    	        
 	        }
 	    }
 	});
+
+
+// 首頁滑動到指定區塊desktop
+   $('#iwantgetfastag').click(function() {       
+     $('html,body').animate({scrollTop:$('#iwantgetfastag＿block').offset().top}, "show");
+               return false;
+           });   
+
+   $('#selectedbrand').click(function() {       
+     $('html,body').animate({scrollTop:$('#selectedbrand＿block').offset().top}, "show");
+               return false;
+           });
+   $('#feature').click(function() {       
+     $('html,body').animate({scrollTop:$('#feature＿block').offset().top}, "show");
+               return false;
+           });
+              
+
+// 首頁滑動到指定區塊mobile
+   $('#iwantgetfastag_mobile').click(function() {       
+     $('html,body').animate({scrollTop:$('#iwantgetfastag＿block').offset().top}, "show");
+               return false;
+           });   
+
+   $('#selectedbrand_mobile').click(function() {       
+     $('html,body').animate({scrollTop:$('#selectedbrand＿block').offset().top}, "show");
+               return false;
+           });
+   $('#feature_mobile').click(function() {       
+     $('html,body').animate({scrollTop:$('#feature＿block').offset().top}, "show");
+               return false;
+           });
+
+
+
+$(".nav_mobile ul  .dropdown-menu li a").click(function () {
+    $(".nav_mobile ul .dropdown-menu").css("display", "none");
+});
+
 
 	// 注意事項
 	$('a.note').click(function(){

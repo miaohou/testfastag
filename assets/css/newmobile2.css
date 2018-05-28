@@ -1,0 +1,297 @@
+	
+.urlcopy {
+    width: 100%;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    z-index: 999999;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    text-align: center;
+    display: none;
+}	
+
+	
+.gotop{
+	background-image:url(../img/top.svg);
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 100px;
+	right: 16px;
+	z-index: 999999;
+	opacity: 1;
+	cursor: pointer;
+  	filter: alpha(opacity=80);
+	background-color: rgba(164, 164, 164, 0.85);
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+	
+.gotop:hover{
+	background-color: rgba(164, 164, 164, 1);
+}
+	
+.sensor{
+	background-image:url(../img/circle_sensor.svg);
+	background-size: 50px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 280px;
+	right: 16px;
+	z-index: 999999;
+	opacity: 0.8;
+	cursor: pointer;
+  	filter: alpha(opacity=80);
+
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+
+.get{
+	background-image:url(../img/circle_get.svg);
+	background-size: 50px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 340px;
+	right: 16px;
+	z-index: 999999;
+	opacity: 0.8;
+	cursor: pointer;
+  	filter: alpha(opacity=80);
+
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+
+.get:hover,.sensor:hover{
+		opacity: 1;
+}
+
+.linkmore{
+	background-image: url('../img/share.svg');
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 160px;
+	right: 16px;
+	z-index: 999999;
+	opacity: 1;
+	display: block;
+	filter: alpha(opacity=80);
+	background-color: rgba(164, 164, 164, 0.85);
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+	
+.linkmore:hover{
+	background-color: rgba(164, 164, 164, 1);
+}	
+	
+
+
+.popup{
+	background-image:url(../img/more-2.svg);
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 220px;
+	right: 16px;
+	z-index: 999999;
+	opacity: 1;
+  	filter: alpha(opacity=80);
+	background-color: rgba(195, 0, 0, 0.85);
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+}
+	
+.popup:hover{
+	background-color: rgba(195, 0, 0, 1);
+}
+
+
+.primecard{
+	background-image:url(../img/attack-01.png);
+	background-size: 65px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:65px;
+	height:65px;
+	position:fixed;
+	bottom: 273px;
+	right: 10px;
+	z-index: 999999;
+	display:block;
+	color:#fff;
+	vertical-align: middle;
+	padding-top: 16px;
+	cursor: pointer;
+	font-size: 10px;
+
+	background-color: transparent!important;
+
+}
+	
+.primecard:hover{
+	background-color: rgba(195, 0, 0, 1);
+}
+
+.fixedbutton_more{
+		position: relative;
+		z-index: 9;
+	}	
+	
+.fixedbutton .fixedbutton_more .copylink{
+	background-image: url('../img/copy.svg');
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 160px;
+	right: 0px;
+	z-index: 999999;
+	opacity: 0;
+	display: block;
+	background-color: #ec6000;
+	background-repeat: no-repeat;
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+    -moz-transition: all,.5s;
+    -o-transition: all,.5s;
+    -webkit-transition: all,.5s;
+    transition: all,.5s;
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+
+
+	
+.fixedbutton .fixedbutton_more .line{
+	background-image: url('../img/line.svg');
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 160px;
+	right: 0px;
+	z-index: 999999;
+	opacity: 0;
+	display: block;
+	background-color: #00c603;
+	background-repeat: no-repeat;
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+    -moz-transition: all,.5s;
+    -o-transition: all,.5s;
+    -webkit-transition: all,.5s;
+    transition: all,.5s;
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+
+	
+.fixedbutton .fixedbutton_more .fb{
+	background-image: url('../img/fb.svg');
+	background-size: 35px auto; 
+	background-repeat: no-repeat;
+	background-position-x:center;
+	background-position-y:center;
+	background-position:center;
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom: 160px;
+	right: 0px;
+	z-index: 999999;
+	opacity: 0;
+	display: block;
+	background-color: #335a9d;
+	background-repeat: no-repeat;
+	-moz-border-radius: 99em;
+    -webkit-border-radius: 99em;
+    border-radius: 99em;
+    -moz-transition: all,.5s;
+    -o-transition: all,.5s;
+    -webkit-transition: all,.5s;
+    transition: all,.5s;
+	-ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+
+
+	
+.fixedbutton .fixedbutton_more.open .copylink{
+	right: 86px;
+	opacity: 1;
+	-ms-transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.fixedbutton .fixedbutton_more.open .line{
+	right: 156px;
+	opacity: 1;
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.fixedbutton .fixedbutton_more.open .fb{
+	right: 226px;
+	opacity: 1;
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>【智慧標籤】Fastag</title>
     <meta property="og:title" content="享6%，真好刷-花旗PChomePrime聯名卡│ PChome 24購物、PChome線上購物、PChome購物中心、PChome書店皆適用">
@@ -27,12 +27,17 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/css/prime_v05092.css?v01">
+   <!-- CSS側選單-->
+    <link rel="stylesheet" href="assets/css/newmobile2.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox4.css">
+    <link rel="stylesheet" href="assets/css/primecard.css">
+     <link rel="stylesheet" href="assets/css/common.css">   
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="//www.googletagmanager.com/gtag/js?id=UA-97384462-4"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
-    function gtag() { dataLayer.push(arguments); } 
+    function gtag() { dataLayer.push(arguments); }  
     gtag('js', new Date());
     gtag('config', 'UA-97384462-4');
     </script>
@@ -45,8 +50,33 @@
 
 </html>
 
+
 <body class="prime_body">
+
     <div class="body_wrapper">
+
+        <!-- primecard內容區域-->
+                <div class="wrap" id="cardbox"> 
+                    <div class="fgh"></div>
+                    <div class="cashbox" style="width: 320px;display: block;margin: 0 auto;position: relative;z-index: 999996;">
+                            <img class="c1" src="assets/img/coin1.png" alt="" style="width: 60px;position: absolute;left: 0px;  z-index: 999999; opacity: 0;"/>
+                            <img class="c2" src="img/coin2.png" alt="" style="width: 60px;position: absolute;left: 60px; z-index: 999999; opacity: 0;"/>
+                            <img class="c3" src="img/coin3.png" alt="" style="width: 55px;position: absolute;left: 100px; z-index: 999999; opacity: 0;"/>
+                            <img class="c4" src="img/coin4.png" alt="" style="width: 60px;position: absolute;left: 140px;  z-index: 999999; opacity: 0;"/>
+                            <img class="c5" src="img/coin5.png" alt="" style="width: 60px;position: absolute;left: 200px; z-index: 999999; opacity: 0;"/>
+                            <img class="c6" src="img/coin6.png" alt="" style="width: 55px;position: absolute;left: 240px; z-index: 999999; opacity: 0;"/>
+                    </div>
+                    <div id="flip" class="flip animated change" >
+                            <a title="Close" class="cardclose" href="javascript:;"></a>
+                        <a href="https://www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm" target="_blank">   
+                            <div class="front rr" style="background-image: url(assets/img/attack-02.png)"></div>
+                            <div class="back rr" style="background-image: url(assets/img/attack-01.png)"></div>
+                        </a>    
+                    </div>
+                </div>
+        <!-- END //  primecard內容區域-->
+
+
         <!-- header-->
         <!-- 手機版版頭-->
         <div class="header_mobile">
@@ -63,8 +93,17 @@
         <div class="nav_mobile navbar-static-top">
             <nav class="navbar">
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm">智慧標籤</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false">品牌優惠&nbsp;<span class="arw">&gt;</span></a>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false">智慧標籤&nbsp;<span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                        <div class="dropdown-menu">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li><a href="#" id="iwantgetfastag_mobile">刷卡優惠</a></li>
+                                <li><a href="#" id="selectedbrand_mobile">首刷禮 x 結帳禮</a></li>
+                                <li><a href="#" id="feature_mobile">P幣是什麼</a></li>
+                            </ul>
+                        </div>
+                    </li> 
+
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false">品牌優惠&nbsp;<span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <div class="dropdown-menu">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?n=index_01.html">刷卡優惠</a></li>
@@ -83,10 +122,34 @@
             <div class="container">
                 <ul class="nav navbar-nav">
                     <li class="logo"><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm"><img src="assets/img/logo_ft.svg" alt="PChome Prime"></a></li>
-                    <li class="text about"><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm">智慧標籤</a></li>
+
+                    <li class="text only dropdown">
+                        <div class="fixbg" style="position: relative;"></div><a herf=""class="dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-expanded="false">智慧標籤
+                        <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu" role="menu" style="display: none;">
+                            <li>
+                                <a href="#" id="iwantgetfastag">
+                                    <div class="btn">如何獲得</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="selectedbrand">
+                                    <div class="btn">精選品牌</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="feature">
+                                    <div class="btn">4大特點</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
                     <li class="text only dropdown">
                         <div class="fixbg" style="position: relative;"></div><a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">品牌優惠
-              <div class="arw">></div></a>
+                        <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
                                 <a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?n=index_01.html">
@@ -105,6 +168,7 @@
                             </li>
                         </ul>
                     </li>
+
                     <li class="text school"><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?n=index_04.html">聰明消費</a></li>
                     <li class="text school"><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?n=index_04.html">常見問題</a></li>
                     <li class="coinP ">
@@ -127,10 +191,78 @@
                 <!-- from json slider data-->
                 <div class="owl-carousel owl-theme"></div>
             </div>
+
             <!-- 側邊貼紙-->
+           <!-- 新版 輔助選單 功能 -->
+            <!--複製完成訊息-->
+            <div class="urlcopy" style="display: none; top: 82px;">連結已複製~</div> 
+            <!--end 複製完成訊息-->
+
+
+            
+            <div class="">
+
+                <!--primecard功能-->
+                <a><div id="primecard" class="primecard cardshake"></div></a>
+                <!--end primecard功能-->  
+
+                <!--more功能-->
+                <a href="http://www.pchomeec.tw/activity/AC25218504?n=index_00.html" target="_blank" class="fancybox-iframe"><div class="popup"></div></a>
+                <!--end more功能-->
+
+
+
+                <!--share功能-->
+                <div class="fixedbutton">
+
+
+                    <!-- share按鈕 -->
+                    <a class="linkmore" href="javascript:;"></a>
+                    <!-- END share按鈕 -->
+
+
+                        <div class="fixedbutton_more">  
+
+
+                            <!-- 複製連接按鈕 -->
+                            <a class="fixedURL" href="javascript:void(0);" target="_blank" data-clipboard-text="https://www.pchomeec.tw/activity/AC77266635"><div class="copylink"></div></a>
+                            <!--END  複製連接按鈕 -->
+
+                            <!-- LINE按鈕 -->
+                            <a class="line2" onclick="window.open('https://line.me/R/msg/text/?http://www.pchomeec.tw/activity/AC77266635', '_blank');" href="javascript: void(0)"><div class="line"></div></a>   
+                            <!--END LINE按鈕 -->
+
+                            <!-- FB按鈕 -->
+                            <a class="fb2" href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent('https://shopping.pchome.com.tw/?m=index&f=activity&ac=AC77266635')) ));" target="_blank" target="_blank"><div class="fb"></div></a>
+                            <!--END FB按鈕 -->
+
+                        </div>
+                </div>  
+                <!--end share功能-->
+
+                <!--TOP功能-->
+                <div class="gotop"></div>
+                <!--end TOP功能-->
+
+                <!--sensor功能-->
+                 <!-- <div class="sensor"></div> -->
+                <!--sensor功能-->
+
+                <!--get功能-->
+                 <!-- <div class="get"></div> -->
+                <!--end get功能-->
+
+            </div>
+        <!-- END 新版 輔助選單 功能 -->  
+   
+
+
+
+
+
 
             <!-- 登記抽-->
-            <div class="section" id="">
+            <div class="section" >
                 
                 <div class="content_box overhide ">
                     <ul class="">
@@ -200,7 +332,8 @@
 
             </div>
             <!-- fastag如何獲得-->
-            <div class="section getfastag" id="getfastag">
+            <div class="section getfastag" >
+                <div id="iwantgetfastag＿block" style="position: absolute;top: -56px;"></div>
                 <h2 class="text-center"> 
                      <div class="logo_fastag inline-block">
                         <img  src="assets/img/logo_fastag_get.svg">
@@ -211,7 +344,7 @@
             </div>
 
             <!-- 精選品牌-->
-            <div class="section store_discount">
+            <div id="selectedbrand＿block" class="section store_discount">
                 <h2 class="text-center"> 
           <div class="logo_fastag inline-block">
                 <img  src="assets/img/logo_fastag_brand.svg">
@@ -319,14 +452,27 @@
 
 <!-- Modal 吃貨卡-->
 <div class="modal fade" id="brand_eat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog brand_pop" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
+      
+      <div class="modal-header ">
 
+
+        <!-- 桌機版圖--> 
+        <div class="destop_pic"><img src="assets/img/pic/index_cut2-5.jpg" alt=""></div>
+        <!-- 手機版圖--> 
+        <div class="mobile_pic"><img src="assets/img/pic/mobile_banner_02-3.jpg" alt=""></div>       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="glyphicon glyphicon glyphicon-remove btn-lg" aria-hidden="true"></span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+        
+
+   
+
+      </div>
+
+
+      <div class="modal-body">
         <div class="modal_text">
             <p>凡購買XXXXXX品牌指定產品，即可隨箱免費獲得PChome 24h購物 XX品牌智慧標籤Fastag，你就是VIP，就是給你最便宜！</p>
         </div>
@@ -341,26 +487,21 @@
           </div>
           <div class="discount">
             <ul >
-                <li class="period_past radius_M">
-                     <div class="percentage_title">1<small class="align-text-bottom">&nbsp;下單即享</small></div>                   
+                <li class="">
+<!--                      <div class="percentage_title">1<small class="align-text-bottom">&nbsp;下單即享</small></div>                   
                     <div class="percentage">85<small>折</small></div>
-                    <p class="past_time radius_XL">即日起-2018.6.30</p>
+                    <p class="past_time radius_XL">即日起-2018.6.30</p> -->
+                    <img class="radius_M period_future" src="assets/img/pic/sale_section01.jpg" alt="">
 
                 </li>
-                <li class="period_on radius_M">
-                   <div class="percentage_title">2<small>&nbsp;指定商品</small></div>                   
-                    <div class="percentage">6<small>折</small></div>
-                    <p class="on_time radius_XL">限2018.7.1-2018.8.31</p>
+                <li class="">
+                   <img class="radius_M period_future" src="assets/img/pic/sale_section01.jpg" alt="">
                 </li>
-                <li class="period_future radius_M">
-                    <div class="percentage_title">3<small class="align-text-bottom">&nbsp;週年慶全館</small></div>                   
-                    <div class="percentage">79<small>折</small></div>
-                    <p class="future_time radius_XL">限2018.9.1-2018.10.31</p>
+                <li class=" ">
+                    <img class="radius_M period_future" src="assets/img/pic/sale_section01.jpg" alt="">                   
                 </li>
-                <li class="period_future radius_M">
-                    <div class="percentage_title">4<small class="align-text-bottom">&nbsp;保健品週年慶</small></div>                   
-                    <div class="percentage">85<small>折</small></div>
-                    <p class="future_time radius_XL">限2018.11.11-2019.6.30</p>
+                <li class="">
+                   <img class="radius_M period_future" src="assets/img/pic/sale_section01.jpg" alt="">
                 </li>
             </ul>
           </div>
@@ -399,20 +540,25 @@
                 <h2 class="text-center"> 
           <hr>
         </h2>
-                
-                <div class="content_box overhide mg-btm20">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item item01" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a>
-                        <div class="owl-video-play-icon"></div></div>
-                        <div class="item item02" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a><div class="owl-video-play-icon"></div></div>
-                        <div class="item item01" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a><div class="owl-video-play-icon"></div></div>
-                        <div class="item item02" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a><div class="owl-video-play-icon"></div></div>
-                        <div class="item item01" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a><div class="owl-video-play-icon"></div></div>
+            <div class="content_box overhide mg-btm20">
+                <div class="owl-carousel owl-theme">
+                    <div><iframe type="text/html" width="100%" height="305"
+                src="https://www.youtube.com/embed/VvX4pJyN0iY" frameborder="0"></iframe>
+                        <!-- <div class="owl-video-play-icon"></div> --></div>
+                    <div><iframe type="text/html" width="100%" height="305"
+                src="https://www.youtube.com/embed/VvX4pJyN0iY" frameborder="0"></iframe><!-- <div class="owl-video-play-icon"></div> --></div>
+                    <div><iframe type="text/html" width="100%" height="305"
+                src="https://www.youtube.com/embed/VvX4pJyN0iY" frameborder="0"></iframe><!-- <div class="owl-video-play-icon"></div> --></div>
+                    <div><iframe type="text/html" width="100%" height="305"
+                src="https://www.youtube.com/embed/VvX4pJyN0iY" frameborder="0"></iframe><!-- <div class="owl-video-play-icon"></div> --></div>
+                    <div><iframe type="text/html" width="100%" height="305"
+                src="https://www.youtube.com/embed/VvX4pJyN0iY" frameborder="0"></iframe><!-- <div class="owl-video-play-icon"></div> --></div>
                     </div>
                 </div>
             </div>
+
             <!--四大特點-->
-            <div class="section fourspecial" id="fourspecial">
+            <div class="section fourspecial" id="feature＿block">
             <div class="content_box" >              
                 <h2 class="text-center"> 
                      <div class="logo_fastag inline-block">
@@ -535,7 +681,26 @@
             </div>
         </div>
         <div class="footer">
+        <!-- 底部固定banner-->
+        <div class="fixedbar">
+            <div class="wrap">
+                    <div class="desktop">
+                        <a href="https://www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?utm_source=Shopping&utm_medium=activity&utm_campaign=primecard" target="_blank" style="display:block; margin: 5px!important;">
+                            <img src="assets/img/creditcardn.png" alt="" />
+                        </a>
+                    </div>
+                
+                     <div class="mobile">
+                        <a href="https://www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm?utm_source=Shopping&utm_medium=activity&utm_campaign=primecard" target="_blank" style="display:block;">
+                            <img src="assets/img/creditcard.png" alt="" /> 
+                        </a>
+                    </div>
+
+            </div>
+        </div>
+        <!--底部固定banner-->               
             <div class="desktop">
+
                 <ul>
                     <li>
                         <h4>智慧標籤</h4><a href="//www.pchomeprime.com.tw/activity/cobrand/citi/apply.htm">什麼是智慧標籤</a>
@@ -559,12 +724,19 @@
                 </ul>
             </div>
             <div class="mobile"><a href="#" data-toggle="modal" data-target="#connection">PChome線上購物客服</a></div>
+
+
         </div>
         <div class="copyright">
-            <div class="mobile"><a href="http://24h.m.pchome.com.tw/appget.php" target="_blank"><img src="assets/img/icon_app.png"></a></div>
-            <p><a class="activateCard radius_S btnHover" href="//shopping.pchome.com.tw/" target="_blank">PChome 線上購物</a>- 本網頁所列內容由PChome提供之行銷活動，以PChome網頁標示為準; 由花旗銀行提供之卡友權益，以該行活動網頁為準。
+             
+            <div class="mobile">
+                <a href="http://24h.m.pchome.com.tw/appget.php" target="_blank"><img src="assets/img/icon_app.png"></a></div>
+            <p><a class="activateCard radius_S" href="//shopping.pchome.com.tw/" target="_blank">PChome 線上購物&nbsp;</a>- 本網頁所列內容由PChome提供之行銷活動，以PChome網頁標示為準; 由花旗銀行提供之卡友權益，以該行活動網頁為準。
                 <br>網路家庭版權所有 Copyright© PChome Online 轉載必究。</p>
         </div>
+
+
+
         <form action="https://pat.webatm.citibank.com.tw/extfunc24/page/index_AC" method="post">
             <input type="hidden" name="prospect_id">
             <input type="hidden" name="time">
@@ -573,7 +745,7 @@
         </form>
     </div>
     <div class="test"></div>
-    <script type="text/javascript" src="assets/js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
     <script>
     $(function() {
         $('li.text.about, li.text.about a').addClass('active');
@@ -610,9 +782,6 @@
             html_pc += '<a href="' + KVslider[i]['link'] + '"><img src="assets/img/space.png"></a></div>';
             html_mobile += '<div class="item"><a href="' + KVslider[i]['link'] + '"><img src="assets/img/pic/' + KVslider[i]['mobile_img'] + '"></a></div>';
         }
-        $('.slider_wrap .owl-carousel').html(html_pc);
-        $('.mobile_slider .owl-carousel').html(html_mobile);
-
 
 
     });
@@ -622,4 +791,9 @@
     <script type="text/javascript" src="assets/js/event_v006.js"></script>
     <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="assets/js/layout_V008.js"></script>
+    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="assets/js/primecard.js"></script>
+    <script type="text/javascript" src="assets/js/newmobile2.js"></script>
+
+
 </body>
